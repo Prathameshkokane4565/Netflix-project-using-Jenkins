@@ -4,8 +4,8 @@
                                    home page
 
 # Launch EC2 (Ubuntu 22.04):  
- Provision an EC2 instance on AWS with Ubuntu 22.04.
- Connect to the instance using SSH.
+ # > Provision an EC2 instance on AWS with Ubuntu 22.04.
+ # >Connect to the instance using SSH.
 
 # Phase 3: CI/CD Setup
  1.Install Jenkins for Automation:
