@@ -162,9 +162,8 @@ pipeline {
 
 
 
-
-
-
-
 Configure CI/CD Pipeline in Jenkins:
 Create a CI/CD pipeline in Jenkins to automate your application deployment.
+
+
+## Cleanup AWS EC2 Instances: - Terminate AWS EC2 instances that are no longer needed.
