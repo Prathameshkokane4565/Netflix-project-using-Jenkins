@@ -78,7 +78,7 @@ sudo chmod 777 /var/run/docker.sock
 
 1.Install SonarQube and Trivy:
 
->Install SonarQube and Trivy on the EC2 instance to scan for vulnerabilities.
+- Install SonarQube and Trivy on the EC2 instance to scan for vulnerabilities.
 sonarqube
 ```http
 docker run -d --name sonar -p 9000:9000 sonarqube:lts-community
@@ -106,7 +106,7 @@ trivy image <imageid>
 - Configure SonarQube to analyze code for quality and security issues.
 ####SonarQube
 Create the token
-Goto Jenkins Dashboard → Manage Jenkins → Credentials → Add Secret Text. It should look like this
+Go to Jenkins Dashboard → Manage Jenkins → Credentials → Add Secret Text. It should look like this
 
 
 
