@@ -74,7 +74,19 @@ sudo usermod -aG docker jenkins
 newgrp docker
 sudo chmod 777 /var/run/docker.sock
 ```
+## Phase 2: Security
 
+1.Install SonarQube and Trivy:
+
+>Install SonarQube and Trivy on the EC2 instance to scan for vulnerabilities.
+sonarqube
+```http
+docker run -d --name sonar -p 9000:9000 sonarqube:lts-community
+```
+To access:
+
+publicIP:9000 (by default username & password is admin)
+![image alt](
 
 
 
