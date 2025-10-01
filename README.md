@@ -114,22 +114,26 @@ After adding sonar token
 Click on Apply and Save
 
 #### The Configure System option is used in Jenkins to configure different server
-![image alt](
-
-
-
-
-
-
-
-
-
+![image alt](https://github.com/Prathameshkokane4565/Netflix-project-using-Jenkins/blob/fcf7845630e38b7cc235209f6cf1e77fe4a64d90/sonar%20server.png)
 
 #### Global Tool Configuration is used to configure different tools that we install using Plugins
 
 We will install a sonar scanner in the tools.
 
 Create a Jenkins webhook
+
+Configure CI/CD Pipeline in Jenkins:
+Create a CI/CD pipeline in Jenkins to automate your application deployment.
+
+
+
+
+
+
+
+
+
+
 
 Configure CI/CD Pipeline in Jenkins:
 Create a CI/CD pipeline in Jenkins to automate your application deployment.
