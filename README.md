@@ -86,7 +86,29 @@ docker run -d --name sonar -p 9000:9000 sonarqube:lts-community
 To access:
 
 publicIP:9000 (by default username & password is admin)
-![image alt](
+![image alt](https://github.com/Prathameshkokane4565/Netflix-project-using-Jenkins/blob/62d8873204c004ecee8d7ec7f867d88f14675b01/sonar%20qube%20login.png)
+
+#### To install Trivy:
+```http
+sudo apt-get install wget apt-transport-https gnupg lsb-release
+wget -qO - https://aquasecurity.github.io/trivy-repo/deb/public.key | sudo apt-key add -
+echo deb https://aquasecurity.github.io/trivy-repo/deb $(lsb_release -sc) main | sudo tee -a /etc/apt/sources.list.d/trivy.list
+sudo apt-get update
+sudo apt-get install trivy
+```      
+#### To scan image using trivy
+
+```http
+trivy image <imageid>
+```
+2.Integrate SonarQube and Configure:
+>Integrate SonarQube with your CI/CD pipeline.
+>Configure SonarQube to analyze code for quality and security issues.
+####SonarQube
+Create the token
+Goto Jenkins Dashboard → Manage Jenkins → Credentials → Add Secret Text. It should look like this
+
+
 
 
 
