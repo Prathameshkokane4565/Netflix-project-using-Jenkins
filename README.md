@@ -32,8 +32,19 @@ publicIp:8080
 
 Goto Manage Jenkins →Plugins → Available Plugins → Install below plugins
 
-```http Eclipse Temurin Installer
+```http
+ Eclipse Temurin Installer
 ```
-```http SonarQube Scanner  
+```http
+SonarQube Scanner  
+```
+```http
+NodeJs Plugin
+```
+```http
+docker
+```
+```http
+stage view
 ```
 
