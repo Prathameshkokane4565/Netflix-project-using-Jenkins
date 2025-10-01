@@ -62,12 +62,31 @@ stage view
 #### Node.js
 ![image alt](https://github.com/Prathameshkokane4565/Netflix-project-using-Jenkins/blob/13aa738091d8b947017f4b38a47aa89f546b04b5/Node%20JS.png)
 
+#### Install Docker and Run the App Using a Container:
 
-####Global Tool Configuration is used to configure different tools that we install using Plugins
+ >Set up Docker on the EC2 instance:
+```http
+sudo apt-get update
+sudo apt-get install docker.io -y
+sudo systemctl start docker
+sudo usermod -aG docker ubuntu
+sudo usermod -aG docker jenkins
+newgrp docker
+sudo chmod 777 /var/run/docker.sock
+```
+
+
+
+
+
+
+
+
+#### Global Tool Configuration is used to configure different tools that we install using Plugins
 
 We will install a sonar scanner in the tools.
 
 Create a Jenkins webhook
 
 Configure CI/CD Pipeline in Jenkins:
-> Create a CI/CD pipeline in Jenkins to automate your application deployment.
+Create a CI/CD pipeline in Jenkins to automate your application deployment.
