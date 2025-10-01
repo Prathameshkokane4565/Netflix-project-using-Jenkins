@@ -54,7 +54,7 @@ stage view
 ![image alt](https://github.com/Prathameshkokane4565/Netflix-project-using-Jenkins/blob/b0876bfb3080ea65e256be008b1f0be92e121776/Screenshot%202025-10-01%20210426.png)
 
 #### Sonarqube Scanner
-![image alt](
+![image alt](https://github.com/Prathameshkokane4565/Netflix-project-using-Jenkins/blob/265cb9f15bd0dd406068b83e67f608adecd6ee52/sonar.png)
 
 #### Sonarqube Scanner
 ![image alt](
