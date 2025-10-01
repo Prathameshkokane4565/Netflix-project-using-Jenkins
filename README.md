@@ -56,8 +56,8 @@ stage view
 #### Sonarqube Scanner
 ![image alt](https://github.com/Prathameshkokane4565/Netflix-project-using-Jenkins/blob/265cb9f15bd0dd406068b83e67f608adecd6ee52/sonar.png)
 
-#### Sonarqube Scanner
-![image alt](
+#### Docker
+![image alt](https://github.com/Prathameshkokane4565/Netflix-project-using-Jenkins/blob/ff21a1af425f6253dacf320e237b1a3784af9c0e/docker.png)
 
-#### Sonarqube Scanner
+#### Node.js
 ![image alt](
