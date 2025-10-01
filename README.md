@@ -10,7 +10,7 @@
 # Phase 3: CI/CD Setup
  1.Install Jenkins for Automation:
   # Install Jenkins on the EC2 instance to automate deployment: Install Java
-Md
+ ```http
 sudo apt update
 sudo apt install fontconfig openjdk-21-jre -y
 sudo wget -O /usr/share/keyrings/jenkins-keyring.asc \
@@ -22,3 +22,4 @@ sudo apt-get update
 sudo apt-get install jenkins
 sudo systemctl start jenkins
 sudo systemctl enable jenkins
+
