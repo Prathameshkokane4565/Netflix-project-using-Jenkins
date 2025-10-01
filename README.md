@@ -1,2 +1,2 @@
 # Netflix-project-using-Jenkins
-i have added netflix project using CI-CD pipeline and sonarqube 
+# Deploy Netflix Clone on Cloud using Jenkins - DevSecOps Project!
