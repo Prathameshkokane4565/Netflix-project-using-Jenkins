@@ -60,4 +60,14 @@ stage view
 ![image alt](https://github.com/Prathameshkokane4565/Netflix-project-using-Jenkins/blob/ff21a1af425f6253dacf320e237b1a3784af9c0e/docker.png)
 
 #### Node.js
-![image alt](
+![image alt](https://github.com/Prathameshkokane4565/Netflix-project-using-Jenkins/blob/13aa738091d8b947017f4b38a47aa89f546b04b5/Node%20JS.png)
+
+
+####Global Tool Configuration is used to configure different tools that we install using Plugins
+
+We will install a sonar scanner in the tools.
+
+Create a Jenkins webhook
+
+Configure CI/CD Pipeline in Jenkins:
+> Create a CI/CD pipeline in Jenkins to automate your application deployment.
