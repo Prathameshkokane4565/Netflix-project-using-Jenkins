@@ -107,6 +107,15 @@ trivy image <imageid>
 ####SonarQube
 Create the token
 Go to Jenkins Dashboard → Manage Jenkins → Credentials → Add Secret Text. It should look like this
+![image alt](https://github.com/Prathameshkokane4565/Netflix-project-using-Jenkins/blob/6e1e33826662cb28c954a488da5e2072e3a316f0/sonar%20scrate%20key.png)
+
+After adding sonar token
+
+Click on Apply and Save
+
+#### The Configure System option is used in Jenkins to configure different server
+
+
 
 
 
