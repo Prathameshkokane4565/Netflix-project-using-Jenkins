@@ -102,8 +102,8 @@ sudo apt-get install trivy
 trivy image <imageid>
 ```
 2.Integrate SonarQube and Configure:
->Integrate SonarQube with your CI/CD pipeline.
->Configure SonarQube to analyze code for quality and security issues.
+- Integrate SonarQube with your CI/CD pipeline.
+- Configure SonarQube to analyze code for quality and security issues.
 ####SonarQube
 Create the token
 Goto Jenkins Dashboard → Manage Jenkins → Credentials → Add Secret Text. It should look like this
