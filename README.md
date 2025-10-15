@@ -10,7 +10,7 @@
 # Phase 3: CI/CD Setup
  1.Install Jenkins for Automation:
   #### Install Jenkins on the EC2 instance to automate deployment: Install Java
- ```http
+ ```
 sudo apt update
 sudo apt install fontconfig openjdk-21-jre -y
 sudo wget -O /usr/share/keyrings/jenkins-keyring.asc \
@@ -32,19 +32,19 @@ publicIp:8080
 
 Goto Manage Jenkins →Plugins → Available Plugins → Install below plugins
 
-```http
+```
  Eclipse Temurin Installer
 ```
-```http
+```
 SonarQube Scanner  
 ```
-```http
+```
 NodeJs Plugin
 ```
-```http
+```
 docker
 ```
-```http
+```
 stage view
 ```
 ## Configure Java and Nodejs in Global Tool Configuration
@@ -65,7 +65,7 @@ stage view
 #### Install Docker and Run the App Using a Container:
 
  >Set up Docker on the EC2 instance:
-```http
+```
 sudo apt-get update
 sudo apt-get install docker.io -y
 sudo systemctl start docker
@@ -80,7 +80,7 @@ sudo chmod 777 /var/run/docker.sock
 
 - Install SonarQube and Trivy on the EC2 instance to scan for vulnerabilities.
 sonarqube
-```http
+```
 docker run -d --name sonar -p 9000:9000 sonarqube:lts-community
 ```
 To access:
@@ -89,7 +89,7 @@ publicIP:9000 (by default username & password is admin)
 ![image alt](https://github.com/Prathameshkokane4565/Netflix-project-using-Jenkins/blob/62d8873204c004ecee8d7ec7f867d88f14675b01/sonar%20qube%20login.png)
 
 #### To install Trivy:
-```http
+```
 sudo apt-get install wget apt-transport-https gnupg lsb-release
 wget -qO - https://aquasecurity.github.io/trivy-repo/deb/public.key | sudo apt-key add -
 echo deb https://aquasecurity.github.io/trivy-repo/deb $(lsb_release -sc) main | sudo tee -a /etc/apt/sources.list.d/trivy.list
@@ -98,7 +98,7 @@ sudo apt-get install trivy
 ```      
 #### To scan image using trivy
 
-```http
+```
 trivy image <imageid>
 ```
 2.Integrate SonarQube and Configure:
@@ -125,7 +125,7 @@ Create a Jenkins webhook
 Configure CI/CD Pipeline in Jenkins:
 Create a CI/CD pipeline in Jenkins to automate your application deployment.
 
-```http
+```
 pipeline {
     agent any
     tools {
